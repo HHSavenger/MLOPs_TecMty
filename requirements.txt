@@ -1,0 +1,13 @@
+# Dependencias de train_final.py (versiones con las que se ejecutaron y verificaron las corridas)
+# Python 3.13.7
+# Instalación:  pip install -r requirements.txt
+#
+# Las versiones están fijadas (==) porque un cambio en numpy, pandas o scikit-learn
+# puede alterar los resultados aunque la semilla (--seed) sea la misma.
+
+numpy==2.3.5
+pandas==3.0.3
+scikit-learn==1.7.2
+scipy==1.16.3          # dependencia de scikit-learn (solvers y estadística)
+matplotlib==3.10.7
+mlflow==3.16.1
